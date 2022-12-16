@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #faebeb;
+    background-color: white;
+}
+
+.elements {
+    height: 90vh;
+    background-repeat: round;
+    background-size: 30%;
+    margin-bottom: -40px;   
+}
+.man_image {
+    vertical-align: middle;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    
+}
+
+
+a {
+    text-decoration: none;
+    transition: .5s linear;
+}
+
+footer {
+    background-color: #231f20;
+    color: white;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+
+/*.footer_text {
+    margin: 100px auto auto 20px;
+}*/
+
+header {
+    background-color: #231f20;
+    color: white;
+    display: block;
+    height: 50px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;    
+    margin: 0px;
+    
+}
+
+.top_text {
+    text-decoration: none;
+    margin-bottom: 0.7%;
+    object-position: center;
+    vertical-align: text-bottom;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 15px;
+    display: flex;
+    margin: 0px;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 10px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+a:hover:before {
+    clip: rect(0, 190px, 190px, 0);
+}
+a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: attr(data-content);
+    display: inline-block;
+    color: #e4c2ff;
+    width: 100%;
+    clip: rect(0, 0, 190px, 0);
+    -webkit-transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms;
+    transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms;
+}
+
+.elements {
+    height: 90vh;
+    background-repeat: round;
+    background-size: 30%;
+    margin-bottom: -40px;   
+}
+
+.table1 {
+    color: black;
+	border: none;
+	margin-bottom: 20px;
+	border-collapse: separate;
+    position: relative;
+    left: 50%;
+    top: 20%;
+    background-color: white;
+}
+.table1 thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+  text-align: center;
+	padding: 10px 15px;
+	background: #231f20;
+  color: white;
+	font-size: 12px;
+	border-top: 1px solid #ddd;
+}
+
+.table1 tbody td {
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	font-size: 12px;
+	vertical-align: top;
+}
+.table1 tbody tr:nth-child(even) {
+	background: white;
+}
+
+
+.header-down{
+    color:#231f20;
+}
+
+.content{
+    height: 90vh;
+    background-repeat: round;
+    background-size: 30%;
+    margin-bottom: 100px;   
+    margin-top: 80px;
+}
+
+.polytech{
+    margin-top: -10px;
+}
+
+.block_func {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.block_func-item {
+    border: red solid 2px;
+    margin-right: 8px;
+    padding: 5px;
+}
+
+
+
